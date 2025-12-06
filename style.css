@@ -150,6 +150,20 @@
             }
         }
 
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --primary-color:#434343;
+                --text-primary:#f3f4f6;
+                --text-secondary:#d1d5db;
+                --background:#181818;
+                --card-background:#1f1f1f;
+                --shadow-lg:0 8px 24px rgba(0, 0, 0, 0.32);
+
+            }
+            .icon {
+                filter: invert(1) hue-rotate(180deg);
+            }
+        }
         /* ==================== ACCESSIBILITY ==================== */
         /* Focus visible for keyboard navigation */
         *:focus-visible {
