@@ -1,6 +1,0 @@
-# Allow all bots to crawl your site
-User-agent: *
-Allow: /
-
-# Sitemap location
-Sitemap: https://egidit.com/sitemap.xml
