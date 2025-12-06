@@ -24,11 +24,12 @@ A minimal, fast, and accessible digital business card website showcasing profess
 ├── README.md               # This file
 └── media/
     ├── pfp.jpg             # Profile photo (140px × 140px recommended)
+    ├── email.svg           # Email icon
+    ├── home.svg            # Home icon
+    ├── instagram.svg       # Instagram icon
     ├── linkedin.svg        # LinkedIn icon
     └── favicon/
-        ├── favicon-32x32.png
-        ├── favicon-16x16.png
-        └── apple-touch-icon.png
+        └── favicon.svg
 ```
 
 ## Setup & Deployment
@@ -193,3 +194,4 @@ IT Support Specialist
 ---
 
 For questions or suggestions, feel free to reach out through the social links.
+
