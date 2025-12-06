@@ -1,13 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<!-- Head of the page -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="IT Support Specialist - Egidijus Tamašauskas (EGIDIT). Professional digital business card with contact and social links.">
+    <meta name="description" content="Contact and social links for Egidijus Tamašauskas (egidit)">
+    <meta name="keywords" content="IT support, Customer Operations, Manager, finech, egidit, Egidijus Tamašauskas">
+    <meta name="author" content="Egidijus Tamašauskas">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <meta name="theme-color" content="#d4d0c8">
+    <!-- Mobile / App icons and performance hints -->
+    <link rel="apple-touch-icon" href="media/pfp.jpg">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#d4d0c8">
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="preload" as="image" href="media/pfp.jpg">
     <title>egidit | Egidijus Tamašauskas</title>
-	<!-- Favicon -->
+    <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="media/favicon/favicon.svg">
 	<!-- Link to external CSS -->
     <link rel="stylesheet" href="style.css">
@@ -15,15 +24,18 @@
 	<link rel="canonical" href="https://egidit.com">
 	<!-- Open Graph Tags for Social Sharing -->
 	<meta property="og:type" content="profile">
-	<meta property="og:title" content="Egidijus Tamašauskas | EGIDIT">
-	<meta property="og:description" content="IT Support Specialist">
+	<meta property="og:title" content="egidit | Egidijus Tamašauskas">
+	<meta property="og:description" content="Contact and social links for Egidijus Tamašauskas (egidit)">
 	<meta property="og:image" content="https://egidit.com/media/pfp.jpg">
+	<meta property="og:image:width" content="400">
+	<meta property="og:image:height" content="400">
 	<meta property="og:url" content="https://egidit.com">
 	<meta property="og:site_name" content="EGIDIT">
+	<meta property="og:locale" content="en_US">
 	<!-- Twitter / X Card Tags -->
-	<meta name="twitter:card" content="summary">
-	<meta name="twitter:title" content="Egidijus Tamašauskas | EGIDIT">
-	<meta name="twitter:description" content="IT Support Specialist">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="egidit | Egidijus Tamašauskas">
+	<meta name="twitter:description" content="Contact and social links for Egidijus Tamašauskas (egidit)">
 	<meta name="twitter:image" content="https://egidit.com/media/pfp.jpg">
 	<!-- JSON-LD Structured Data for Search Engines -->
 	<script type="application/ld+json">
@@ -32,17 +44,23 @@
 		"@type": "Person",
 		"name": "Egidijus Tamašauskas",
 		"alternateName": "EGIDIT",
-		"jobTitle": "IT Support Specialist",
+		"jobTitle": "Customer Operations Manager",
 		"url": "https://egidit.com",
 		"image": "https://egidit.com/media/pfp.jpg",
+		"description": "Expert in IT customer operations and finance.",
 		"sameAs": [
-			"https://linkedin.com/in/egidit"
+			"https://linkedin.com/in/egidit",
+			"https://www.instagram.com/egidijusta/"
 		],
-		"description": "Professional IT Support Specialist offering expertise in system administration and technical support."
+		"contact": {
+			"@type": "ContactPoint",
+			"contactType": "Professional",
+			"email": "contact@egidit.com"
+		}
 	}
 	</script>
 </head>
-
+<!-- Body of the page -->
 <body>
     <main class="container" role="main">
         <!-- Profile Section -->
@@ -58,9 +76,7 @@
             <!-- Profile Name and Title -->
             <div>
                 <h1 id="profile-name" class="profile-name">Egidijus Tamašauskas</h1>
-                <!-- Optional Title Removed
-                <p class="profile-title">IT Support Specialist</p>
-                -->
+                <!-- Optional Title Removed -- <p class="profile-title">Customer Operations Manager</p> -->
             </div>
         </section>
         <!-- Buttons section -->
@@ -75,6 +91,17 @@
             >
                 <img src="media\linkedin.svg" alt="" class="icon" aria-hidden="true">
                 LinkedIn
+            </a>
+            <!-- Instagram button -->
+            <a
+                href="https://www.instagram.com/egidijusta/"
+                target="_blank" 
+                rel="noopener noreferrer" 
+                class="social-btn"
+                aria-label="Visit Instagram profile"
+            >
+                <img src="media\instagram.svg" alt="" class="icon" aria-hidden="true">
+                Instagram
             </a>
             <!-- Email button -->
             <a
