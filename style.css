@@ -1,7 +1,7 @@
         /* ==================== CSS VARIABLES ==================== */
         :root {
-            --primary-color: #d4d0c8;
-            --text-primary: #1f2937;
+            --primary-color: #afcaca;
+            --text-primary: #0a1d25;
             --text-secondary: #6b7280;
             --background: #ffffff;
             --card-background: #ffffff;
@@ -19,13 +19,13 @@
 
         /* ==================== BASE STYLES ==================== */
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', 
-                         'Inter', 'Poppins', sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', 'Inter', 'Poppins', sans-serif;
             background: var(--background);
             color: var(--text-primary);
             line-height: 1.6;
             min-height: 100vh;
             display: flex;
+            overflow: hidden;
             justify-content: center;
             align-items: flex-start;
             padding: 3rem 1rem 2rem;
@@ -124,7 +124,9 @@
         .social-btn svg {
             width: 20px;
             height: 20px;
-        }        /* ==================== RESPONSIVE DESIGN ==================== */
+        }
+        
+        /* ==================== RESPONSIVE DESIGN ==================== */
         @media (max-width: 480px) {
             .container {
                 padding: 2.5rem 1.5rem;
